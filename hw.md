@@ -1,7 +1,4 @@
----
-fontsize: 12pt
-mainfont: "DejaVu Serif"
----
+
 
 # C++
 
