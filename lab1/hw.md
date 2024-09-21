@@ -1,4 +1,22 @@
-
+---
+documentclass: extarticle
+classoption: twoside
+fontsize: 13pt
+geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
+linestretch: 1.2
+mainfont: Noto Serif-Regular
+monofont: Noto Sans Mono-Regular
+colorlinks: true
+listings: true
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyhf{}
+- \fancyhead[LE,RO]{\fontsize{10}{12}\selectfont\nouppercase{\rightmark\hfill\leftmark}}
+- \fancyhead[RO]{\fontsize{10}{12}\selectfont\nouppercase{\leftmark\hfill\rightmark}}
+- \fancyfoot[LE,RO]{\hfill\thepage\hfill}
+output: pdf_document
+---
 
 # C++
 
@@ -30,7 +48,7 @@
   
 Б'ярн Страуструп
 
-![Б'ярн Страуструп](./BjarneStroustrup.jpg)
+![Б'ярн Страуструп](./lab1/BjarneStroustrup.jpg)
 
 ## Історія назви
 
